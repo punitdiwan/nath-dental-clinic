@@ -1,0 +1,118 @@
+/* Ensure the carousel takes the full width of the screen */
+.carousel {
+    width: 100%;
+    /* Full width */
+    overflow: hidden;
+    /* Hide overflow content */
+}
+
+/* .carousel-inner should also take the full width */
+.carousel-inner {
+    width: 100%;
+    /* Ensure the inner container takes full width */
+    height: 90vh;
+    /* Let the height adjust based on image aspect ratio */
+    overflow: hidden;
+    /* Hide any overflow content */
+}
+
+/* Ensure carousel items take up full width but have controlled height */
+.carousel-item {
+    position: relative;
+    width: 100%;
+    /* Full width */
+    height: 85vh;
+    /* Height as a percentage of the viewport height */
+    max-height: 900px;
+    /* Maximum height to avoid getting too large */
+}
+
+/* Ensure the image scales correctly and is fully visible */
+.carousel-item img {
+    object-fit: fill;
+    /* Ensure the image is fully visible without cropping */
+    width: 100%;
+    /* Full width of the container */
+    height: 100%;
+    /* Fill the height of the container while maintaining aspect ratio */
+    display: block;
+    margin: 0 auto;
+    /* Center the image horizontally */
+}
+
+/* Adjust carousel caption */
+.carousel-caption {
+    color: #fafafa;
+    position: absolute;
+    left: 10%;
+    /* Adjust left padding */
+    text-align: left;
+    padding-left: 8vmax;
+    width: 100%;
+    /* Ensure caption is within the width of the carousel */
+}
+
+.carousel-caption h1 {
+    font-size: 3vmax;
+}
+
+.carousel-caption p {
+    font-size: 1.5vmax;
+    width: 70vw;
+}
+
+/* Adjust height of the control buttons */
+.jj {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    padding: 2vmax;
+}
+
+/* Media Queries for smaller screens */
+@media screen and (max-width: 768px) {
+    .jj {
+        height: 30px;
+        width: 30px;
+    }
+
+    /* Reduce height for smaller screens */
+    .carousel-item {
+        height: 50vh;
+        /* Adjust height to 50% of the viewport height */
+        max-height: 400px;
+        /* Keep a max-height for smaller screens */
+    }
+
+    .carousel-inner {
+        width: 100%;
+        /* Ensure the inner container takes full width */
+        height: 50vh;
+        /* Let the height adjust based on image aspect ratio */
+        overflow: hidden;
+        /* Hide any overflow content */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .jj {
+        height: 25px;
+        width: 25px;
+    }
+
+    /* Further reduce height on very small screens */
+    .carousel-item {
+        height: 40vh;
+        /* 40% of the viewport height for very small screens */
+        max-height: 300px;
+    }
+
+    .carousel-inner {
+        width: 100%;
+        /* Ensure the inner container takes full width */
+        height: 40vh;
+        /* Let the height adjust based on image aspect ratio */
+        overflow: hidden;
+        /* Hide any overflow content */
+    }
+}
