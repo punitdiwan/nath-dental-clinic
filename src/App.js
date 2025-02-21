@@ -23,7 +23,7 @@ import NewsPhotos from './component/NewsPhotos';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App">  
     <BrowserRouter>
     <Header/>
     <Routes>
