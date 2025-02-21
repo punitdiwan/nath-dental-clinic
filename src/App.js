@@ -43,7 +43,7 @@ function App() {
     <Route path='/learnigdisability' element={<Learnig/>}/>
     <Route path='/sleepdisorder' element={<Sleep/>}/>
     <Route path='/epilepsy' element={<Epilepsy/>}/>
-    <Route path='/neurometabolic' element={<Neurometa/>}/>
+    <Route path='/neurometabolic' element={<Neurometa/>}/>     
     <Route path='/behavioural' element={<Behaviour/>}/>
     {/* <Route path='/'      element={<Home/>}/> */}
 
