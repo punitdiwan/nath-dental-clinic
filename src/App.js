@@ -45,7 +45,7 @@ function App() {
     <Route path='/epilepsy' element={<Epilepsy/>}/>
     <Route path='/neurometabolic' element={<Neurometa/>}/>
     <Route path='/behavioural' element={<Behaviour/>}/>
-    {/* <Route path='/' element={<Home/>}/> */}
+    {/* <Route path='/'      element={<Home/>}/> */}
 
 
     </Routes>
