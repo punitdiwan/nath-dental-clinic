@@ -31,8 +31,8 @@ const Header = () => {
             </div>
             <div className="topnav-contact">
               <i class="fa-solid fa-phone-volume"></i>
-              <a href="tel:9479663683">
-                <span>+91  9479663683</span>
+              <a href="tel:9755558867">
+                <span>+91  9755558867</span>
               </a>
             </div>
             {/* <div className="topnav-contact">
@@ -61,7 +61,7 @@ const Header = () => {
       <div className="menu-bar pc-menubar">
         <div className="menubar-row">
           <div className="menubar-col-1">
-            <img src="./images/logo.png" alt="" />
+            <img src="./images/logo1.png" alt="" />
           </div>
           <div className="menubar-col-1">
             <ul>
@@ -73,7 +73,7 @@ const Header = () => {
               </li>
 
               <li>
-                <Link to="/newsphotos">News Photos </Link>
+                <Link to="/newsphotos">Newspaper </Link>
               </li>
               {/* <li> */}
                 {/* <a 
@@ -132,7 +132,7 @@ const Header = () => {
       <div className="menu-bar mobile-menubar">
         <div className="menubar-row">
           <div className="menubar-col-1">
-            <img src="./images/logo.png" alt="" />
+            <img src="./images/logo1.png" alt="" />
           </div>
 
           <div className={show ? "menubar-mobile" : "menubar-col-1"}>
@@ -147,7 +147,7 @@ const Header = () => {
                 <Link to="/aboutus">About Us</Link>
               </li>
               <li>
-                <Link to="/newsphotos">News Photos </Link>
+                <Link to="/newsphotos">Newspaper </Link>
               </li>
 
 

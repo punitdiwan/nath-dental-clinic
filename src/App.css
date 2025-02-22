@@ -118,7 +118,7 @@ a {
 }
 
 .menubar-col-1 img {
-  width: 150px;
+  width: 120px;
   height: auto;
 }
 
@@ -239,7 +239,7 @@ a {
   }
   .menubar-col-1 img {
     /* border: 2px solid red; */
-    width: 150px;
+    width: 100px;
     height: auto;
   }
 }
@@ -304,7 +304,7 @@ a {
     font-weight: 500;
   }
   .menubar-col-1 img {
-    width: 100px;
+    width: 85px;
     height: auto;
   }
 }
@@ -652,7 +652,7 @@ a {
 }
 .gallery-col {
   width: 95%;
-  height: 370px;
+  height: 400px;
   margin: 5px;
 
 }
@@ -1226,7 +1226,7 @@ text-align: center;
   flex-basis: 33%;
 }
 .c-col img{
-  width: 27vw;
+  width: 28vw;
   height: 70vh;
 }
 @media (max-width:750px){

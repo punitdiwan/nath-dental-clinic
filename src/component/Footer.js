@@ -29,14 +29,14 @@ const Footer = () => {
               <div className="footer-col footer-col-1">
                 <h3>Shri Nath Ji Dental Clinic</h3>
                 <p>
-                  Dr. Saket Agrawal is Eye specialist & surgeon of Mandla. His
+                   Shri Nath Ji Dental Clinic. His
                   clinic is one of the best setup in Mandla city and equipped
                   with latest machines.
                 </p>
                 <div className="contact-detail">
                   <p>
                     Contact Number :{" "}
-                    <a href="tel:  9479663683">+91 9479663683 </a>
+                    <a href="tel:  9755558867">+91 9755558867 </a>
                   </p>
                   <p>
                     {/* Contact Number : <a href="tel:  8770195044">+91 8770195044</a> */}
@@ -54,16 +54,15 @@ const Footer = () => {
                 <h3>ADDRESS</h3>
                 <div className="clinic-time">
                   <p>
-                    Dr. Agrawal Clinic and Eye Care Center
-                    <br /># Dr. Saket Agrawal C/o Anil Agencies, Below Ashoka
-                    Hotel, Bus stand road, Mandla
+                  Shri Nath Ji Dental Clinic
+                    <br /># Shreenathji Dental Clinic near district hospital above Sehore chemist ganga ashram sehore
                   </p>
                   <p>
                     <span style={{ color: "#ffff" }}>Clinic Time:</span> 11.00am
                     to 3.00pm &nbsp; &nbsp; 6.00pm to 9.00pm
                   </p>
                   <p>
-                    <span style={{ color: "#ffff" }}>Friday:</span> Closed
+                    {/* <span style={{ color: "#ffff" }}>Friday:</span> Closed */}
                   </p>
                 </div>
 

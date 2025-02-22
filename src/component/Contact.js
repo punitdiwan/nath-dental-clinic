@@ -122,10 +122,9 @@ const Contact = () => {
               <div className="contact-cont">
                 <h5>Location</h5>
                 <p>
-                  # Dr. Agrawal Clinic and Eye Care Center
+                  # Shreenathji Dental Clinic 
                   <br />
-                  Dr. Saket Agrawal C/o Anil Agencies, Below Ashoka Hotel, Bus
-                  stand road, Mandla
+                  Shreenathji Dental Clinic near district hospital above sehore chemist ganga ashram sehore
                 </p>
                 <iframe
                   title="maplink"
@@ -144,7 +143,7 @@ const Contact = () => {
               <div>
                 <h5>Call Us</h5>
                 <p>
-                  <a href="tel: 9479663683 ">9479663683</a> ,{" "}
+                  <a href="tel: 9755558867 ">9755558867</a> ,{" "}
                 </p>
               </div>
             </div>
