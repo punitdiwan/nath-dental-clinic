@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [show, setShow] = useState(false);
   // const [down, setDown] = useState(false);
-  const [downt, setDownt] = useState(false);
+
   // const [downth, setDownth] = useState(false);
   return (
     <>
@@ -19,7 +19,7 @@ const Header = () => {
                 style={{ color: "#ffff" }}
                 class="fas fa-long-arrow-alt-right globalcolor"
               ></i>{" "}
-              11:00AM - 3:00PM and 6:00PM - 9:00PM &nbsp; &nbsp;  Friday-Closed
+              11:00AM - 3:00PM and 6:00PM - 9:00PM &nbsp;Friday-Closed
             </p>
           </div>
           <div className="topnav-col topnav-col-1">
@@ -73,7 +73,7 @@ const Header = () => {
               </li>
 
               <li>
-                <Link to="/newsphotos">Newspaper </Link>
+                <Link to="/newsphotos">News updates </Link>
               </li>
               {/* <li> */}
                 {/* <a 
@@ -147,7 +147,7 @@ const Header = () => {
                 <Link to="/aboutus">About Us</Link>
               </li>
               <li>
-                <Link to="/newsphotos">Newspaper </Link>
+                <Link to="/newsphotos">News updates </Link>
               </li>
 
 
