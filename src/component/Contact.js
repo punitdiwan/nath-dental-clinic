@@ -143,7 +143,7 @@ const Contact = () => {
               <div>
                 <h5>Call Us</h5>
                 <p>
-                  <a href="tel: 9755558867 ">9755558867</a> ,{" "}
+                  <a href="tel: 9755558867 ">9755558867</a> 
                 </p>
               </div>
             </div>
@@ -152,8 +152,8 @@ const Contact = () => {
               <div>
                 <h5>Email</h5>
                 <p>
-                  <a href="mailto: saket_agrawal89@yahoo.co.in">
-                    saket_agrawal89@yahoo.co.in
+                  <a href="mailto: nitesh_gaur99@yahoo.com">
+                  nitesh_gaur99@yahoo.com
                   </a>{" "}
                 </p>
               </div>
@@ -167,13 +167,13 @@ const Contact = () => {
               <div>
                 <h5>Facebook</h5>
                 <p>
-                  <a
+                  {/* <a
                     href="https://www.facebook.com/dragrawaleyecare"
                     target="_blank"
                     rel="noreferrer"
                   >
                     https://www.facebook.com/dragrawaleyecare
-                  </a>{" "}
+                  </a> */}
                 </p>
               </div>
             </div>
@@ -184,13 +184,13 @@ const Contact = () => {
               <div>
                 <h5>Google</h5>
                 <p>
-                  <a
+                  {/* <a
                     href="https://g.co/kgs/J9i5AZ"
                     target="_blank"
                     rel="noreferrer"
                   >
                     https://g.co/kgs/J9i5AZ
-                  </a>{" "}
+                  </a> */}
                 </p>
               </div>
             </div>

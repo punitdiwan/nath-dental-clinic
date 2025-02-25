@@ -25,8 +25,8 @@ const Header = () => {
           <div className="topnav-col topnav-col-1">
             <div className="topnav-contact">
               <i class="fa-solid fa-envelope"></i>
-              <a href="mailto: saket_agrawal89@yahoo.co.in">
-                <span> saket_agrawal89@yahoo.co.in</span>
+              <a href="mailto: nitesh_gaur99@yahoo.com">
+                <span> nitesh_gaur99@yahoo.com</span>
               </a>
             </div>
             <div className="topnav-contact">
@@ -146,7 +146,7 @@ const Header = () => {
               <li onClick={() => setShow(!show)}>
                 <Link to="/aboutus">About Us</Link>
               </li>
-              <li>
+              <li onClick={() => setShow(!show)}>
                 <Link to="/newsphotos">News updates </Link>
               </li>
 
@@ -193,7 +193,7 @@ const Header = () => {
               <li onClick={() => setShow(!show)}>
                 <Link to="/gallery">Our Gallery</Link>
               </li>
-              <li>
+              <li onClick={() => setShow(!show)}>
                 <Link to="/After-before">After-Before</Link>
               </li>
               <li onClick={() => setShow(!show)}>

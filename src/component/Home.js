@@ -233,7 +233,7 @@ const Home = () => {
             <i class="fa-solid fa-face-smile"></i>
             <h4>Vikas Agrawal</h4>
             <p>
-              Best Dental Clinic , It was nice experience of visiting
+              It was nice experience of visiting
               here and had a perfect solution of any dental diseases.
             </p>
           </div>
