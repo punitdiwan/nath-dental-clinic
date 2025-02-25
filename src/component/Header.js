@@ -19,7 +19,7 @@ const Header = () => {
                 style={{ color: "#ffff" }}
                 class="fas fa-long-arrow-alt-right globalcolor"
               ></i>{" "}
-              11:00AM - 3:00PM and 6:00PM - 9:00PM &nbsp;Friday-Closed
+              11:00AM - 7:00PM &nbsp;
             </p>
           </div>
           <div className="topnav-col topnav-col-1">

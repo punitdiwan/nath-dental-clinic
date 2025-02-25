@@ -128,7 +128,7 @@ const Contact = () => {
                 </p>
                 <iframe
                   title="maplink"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d458.4047055050863!2d77.08447659565104!3d23.19800852412411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397cf3346411e88b%3A0x6eaecf44ea5a93a7!2sShree%20Nath%20Ji%20Dental%20Clinic!5e0!3m2!1sen!2sin!4v1740127293484!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3667.229797478625!2d77.08004007531906!3d23.19829457905103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDExJzUzLjkiTiA3N8KwMDQnNTcuNCJF!5e0!3m2!1sen!2sin!4v1740487555775!5m2!1sen!2sin"
                   width="100%"
                   height="auto"
                   style={{ border: "0" }}

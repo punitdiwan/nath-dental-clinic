@@ -58,8 +58,7 @@ const Footer = () => {
                     <br /># Shreenathji Dental Clinic near district hospital above Sehore chemist ganga ashram sehore
                   </p>
                   <p>
-                    <span style={{ color: "#ffff" }}>Clinic Time:</span> 11.00am
-                    to 3.00pm &nbsp; &nbsp; 6.00pm to 9.00pm
+                    <span style={{ color: "#ffff" }}>Clinic Time:</span> 11:00am - 7:00pm
                   </p>
                   <p>
                     {/* <span style={{ color: "#ffff" }}>Friday:</span> Closed */}
@@ -172,7 +171,7 @@ const Footer = () => {
           <div className="footer-col" id="footermap">
             <h3>LOCATION MAP</h3>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3083.744101665998!2d77.08213689551613!3d23.199000753027768!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397cf3346411e88b%3A0x6eaecf44ea5a93a7!2sShree%20Nath%20Ji%20Dental%20Clinic!5e0!3m2!1sen!2sin!4v1740127616947!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3667.229797478625!2d77.08004007531906!3d23.19829457905103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDExJzUzLjkiTiA3N8KwMDQnNTcuNCJF!5e0!3m2!1sen!2sin!4v1740487555775!5m2!1sen!2sin"
               width="400"
               height="300"
               allowFullScreen=""
