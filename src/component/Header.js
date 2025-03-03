@@ -61,7 +61,7 @@ const Header = () => {
       <div className="menu-bar pc-menubar">
         <div className="menubar-row">
           <div className="menubar-col-1">
-            <img src="./images/logo1.png" alt="" />
+            <img src="./images/logo.jpeg" alt="" />
           </div>
           <div className="menubar-col-1">
             <ul>
@@ -76,7 +76,7 @@ const Header = () => {
                 <Link to="/newsphotos">News updates </Link>
               </li>
               {/* <li> */}
-                {/* <a 
+              {/* <a 
                 onClick={() => setDownt(!downt)}
                 href="#">
                   Treatments
@@ -91,7 +91,7 @@ const Header = () => {
                     )}
                   </button>
                 </a> */}
-                {/* {downt ? (
+              {/* {downt ? (
                   <div className="drop-link" onClick={() => setDownt(!downt)}>
                     <li>
                       <Link to="/diabetes">Preventive Treatment</Link>
@@ -114,7 +114,7 @@ const Header = () => {
                   ""
                 )} */}
               {/* </li> */}
-            
+
               <li>
                 <Link to="/gallery">Our Gallery</Link>
               </li>
@@ -152,7 +152,7 @@ const Header = () => {
 
 
               {/* <li> */}
-                {/* <a 
+              {/* <a 
                 href="#">
                   Treatments
                   <button
@@ -166,7 +166,7 @@ const Header = () => {
                     )}
                   </button>
                 </a> */}
-                {/* {downt ? (
+              {/* {downt ? (
                   <div className="drop-link" onClick={() => setDownt(!downt)}>
                     <li onClick={() => setShow(!show)}>
                       <Link to="/diabetes">Preventive Treatment</Link>
@@ -189,7 +189,7 @@ const Header = () => {
                   ""
                 )} */}
               {/* </li> */}
-    
+
               <li onClick={() => setShow(!show)}>
                 <Link to="/gallery">Our Gallery</Link>
               </li>
