@@ -58,10 +58,10 @@ const Home = () => {
             </div> */}
 
             <div>
-              <h3>Root Canal Treatment </h3>
+              <h3>Orthodontics Treatment (Braces treatment) </h3>
               <p>
-                Root canal treatment is a treatment sequence for the infected pulp of a tooth that is intended to result in the elimination of infection and the protection of the decontaminated tooth from future microbial invasion.
-              </p>
+                dentistry specialty that addresses the diagnosis, prevention, management, and correction of mal-positioned teeth and jaws, as well as misaligned bite patterns. It may also address the modification of facial growth.
+                Orthodontics is a dental specialty focused on aligning your bite and straightening your teeth. You might need to see an orthodontist if you have crooked, overlapped, twisted or gapped teeth. Common orthodontic treatments include traditional braces, clear aligners and removable retainers.              </p>
             </div>
           </div>
           <div className="spec-col">
@@ -69,11 +69,9 @@ const Home = () => {
               <img src="./img/h2.png" alt="" />
             </div> */}
             <div>
-              <h3>Periodontal Surgery (Gum Surgery) </h3>
+              <h3>Scaling (Teeth cleaning) </h3>
               <p>
-                Periodontal surgery is performed to address advanced gum disease or correct cosmetic gum
-                concerns. Common periodontal surgeries include gum grafting, pocket reduction surgery,
-                and crown lengthening.
+                an ultrasonic scaler to remove plaque and tartar from the teeth. A dental tooth cleaning is a procedure that removes plaque and tartar from teeth to prevent cavities, gum disease, and tooth decay. It's a part of oral hygiene.
               </p>
             </div>
           </div>
@@ -84,24 +82,18 @@ const Home = () => {
               <img src="./img/h3.png" alt="" />
             </div> */}
             <div>
-              <h3>Jaw Surgery (Orthognathic Surgery)</h3>
+              <h3>Root Canal Treatment</h3>
               <p>
-                Orthognathic surgery is performed to correct significant jaw misalignment or skeletal discrepancies
-                that impact the bite, speech, or facial aesthetics. This surgical procedure involves repositioning
-                the upper jaw, lower jaw, or both to achieve proper alignment. Jaw surgery can improve oral function,
-                alleviate TMJ disorders, enhance facial symmetry, and enhance the overall balance of the facial profile.
+                Root canal treatment is a treatment sequence for the infected pulp of a tooth that is intended to result in the elimination of infection and the protection of the decontaminated tooth from future microbial invasion.
               </p>
             </div>
           </div>
           <div className="spec-col">
             <div>
-              <h3>Dental Implants</h3>
+              <h3>Fixed Partial Dentures</h3>
               <p>
-                Dental implants are a popular tooth replacement option that involves surgically placing an artificial
-                tooth root into the jawbone. This procedure provides a stable foundation for a dental crown or bridge.
-                Dental implants offer numerous benefits, including improved chewing and speaking ability,
-                enhanced aesthetics, and preservation of bone structure.
-              </p>
+                The fixed partial denture (FPD) (Fixed teeth)
+                It is a dental restoration used to replace missing teeth and that is permanently attached to adjacent teeth or dental implants. It is like a ‘bridge’ fixed on the ‘stages.’ Here, the adjacent teeth or dental implants, called abutments, act as the stages to support the FPD bridge.              </p>
             </div>
           </div>
         </div>
@@ -129,12 +121,12 @@ const Home = () => {
           </div>
         </div> */}
         <div className="extra">
-          <h3> Tooth Extraction</h3>
+          <h3> Benefits of teeth cleaning - </h3>
           <p>
-          Tooth extractions are minor procedures and the most common type of mouth surgery. They involve removing a 
-          tooth from its gum socket. While dentists generally prefer to save a natural tooth, restorative 
-          methods like dental fillings and crowns are not always possible. Extracting a tooth that’s damaged 
-          beyond repair allows dentists to restore function and aesthetics with a dental implant.
+            Prevents cavities, gingivitis, and periodontal disease<br></br>
+            Helps sore, bleeding gums <br></br>
+            Prevents tooth loss <br></br>
+            Gives you the best chance for long-lasting oral health <br></br>
           </p>
         </div>
         <div className="imp">
@@ -151,25 +143,31 @@ const Home = () => {
         </h1>
         <div className="team-row">
           <div className="team-col">
-            <img src="images/machine1.jpeg" alt="" />
+            <img src="images/machine10.jpeg" alt="" />
             <h6>Slit Lamp With Applanation Tonometer </h6>
 
             {/* <p>(B.H.M.S, M.D)</p> */}
           </div>
           <div className="team-col">
-            <img src="images/machine2.jpeg" alt="" />
+            <img src="images/machine9.jpeg" alt="" />
             <h6> Fully Computerised Glass Prescription</h6>
 
             {/* <p>B.H.M.S</p> */}
           </div>
           <div className="team-col">
-            <img src="images/machine3.jpeg" alt="" />
+            <img src="images/machine8.jpeg" alt="" />
             <h6>Labomed (USA) Operating Microscope</h6>
 
             {/* <p>B.H.M.S</p> */}
           </div>
           <div className="team-col">
-            <img src="images/machine5.jpeg" alt="" />
+            <img src="images/machine7.jpeg" alt="" />
+            <h6>Modular OT</h6>
+
+            {/* <p>B.H.M.S</p> */}
+          </div>
+          <div className="team-col">
+            <img src="images/machine9.jpeg" alt="" />
             <h6>Modular OT</h6>
 
             {/* <p>B.H.M.S</p> */}
@@ -218,7 +216,7 @@ const Home = () => {
             <i class="fa-solid fa-face-smile"></i>
             <h4>Shalu kushwaha</h4>
             <p>
-              Doctor is highly experienced. Shri Nath Ji Dental Clinic is 
+              Doctor is highly experienced. Shri Nath Ji Dental Clinic is
               profession and I am very happy with his treatment🙂.
             </p>
           </div>
