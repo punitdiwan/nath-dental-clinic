@@ -120,6 +120,9 @@ const Home = () => {
             </div>
           </div>
         </div> */}
+        <div className="gallery-col2">
+          <img src="images/description.jpeg" alt="" />
+        </div>
         <div className="extra">
           <h3> Benefits of teeth cleaning - </h3>
           <p>
@@ -143,32 +146,32 @@ const Home = () => {
         </h1>
         <div className="team-row">
           <div className="team-col">
-            <img src="images/machine10.jpeg" alt="" />
-            <h6>Slit Lamp With Applanation Tonometer </h6>
+            <img src="images/machine1.jpeg" alt="" />
+            {/*  <h6>Slit Lamp With Applanation Tonometer </h6> */}
 
             {/* <p>(B.H.M.S, M.D)</p> */}
           </div>
           <div className="team-col">
             <img src="images/machine9.jpeg" alt="" />
-            <h6> Fully Computerised Glass Prescription</h6>
+            {/*     <h6> Fully Computerised Glass Prescription</h6> */}
 
             {/* <p>B.H.M.S</p> */}
           </div>
           <div className="team-col">
             <img src="images/machine8.jpeg" alt="" />
-            <h6>Labomed (USA) Operating Microscope</h6>
+            {/*    <h6>Labomed (USA) Operating Microscope</h6> */}
 
             {/* <p>B.H.M.S</p> */}
           </div>
           <div className="team-col">
             <img src="images/machine7.jpeg" alt="" />
-            <h6>Modular OT</h6>
+            {/*   <h6>Modular OT</h6> */}
 
             {/* <p>B.H.M.S</p> */}
           </div>
           <div className="team-col">
-            <img src="images/machine9.jpeg" alt="" />
-            <h6>Modular OT</h6>
+            <img src="images/machine6.jpeg" alt="" />
+            {/*   <h6>Modular OT</h6> */}
 
             {/* <p>B.H.M.S</p> */}
           </div>
