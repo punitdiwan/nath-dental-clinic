@@ -27,9 +27,9 @@ const Footer = () => {
           <div className="footer-left-upper">
             <div className="footer-left">
               <div className="footer-col footer-col-1">
-                <h3>Shri Nath Ji Dental Clinic</h3>
+                <h3>Shree Nath Ji Dental Clinic</h3>
                 <p>
-                   Shri Nath Ji Dental Clinic. His
+                  Shree Nath Ji Dental Clinic. His
                   clinic is one of the best setup in Mandla city and equipped
                   with latest machines.
                 </p>
@@ -54,7 +54,7 @@ const Footer = () => {
                 <h3>ADDRESS</h3>
                 <div className="clinic-time">
                   <p>
-                  Shri Nath Ji Dental Clinic
+                    Shree Nath Ji Dental Clinic
                     <br /># Shreenathji Dental Clinic near district hospital above Sehore chemist ganga ashram sehore
                   </p>
                   <p>
@@ -186,7 +186,7 @@ const Footer = () => {
       <div className="policy" id="footer-policy">
         <div className="policy-row">
           <div className="policy-col">
-            <p>Copyright ©  Shri Nath Ji Dental Clinic</p>
+            <p>Copyright ©  Shree Nath Ji Dental Clinic</p>
           </div>
           <div className="policy-col">
             <p>

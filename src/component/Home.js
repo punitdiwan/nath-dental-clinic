@@ -26,7 +26,7 @@ const Home = () => {
       <BannerSection />
 
       <div className="welcome">
-        <h3>About Shri Nath Ji Dental Clinic</h3>
+        <h3>About Shree Nath Ji Dental Clinic</h3>
         <div className="wel-row">
           <div className="wel-col ">
             <img src={paragraph?.image?.data?.full_url.replace(
@@ -152,7 +152,7 @@ const Home = () => {
             {/* <p>(B.H.M.S, M.D)</p> */}
           </div>
           <div className="team-col">
-            <img src="images/machine9.jpeg" alt="" />
+            <img src="images/machine11.jpeg" alt="" />
             {/*     <h6> Fully Computerised Glass Prescription</h6> */}
 
             {/* <p>B.H.M.S</p> */}
@@ -170,7 +170,7 @@ const Home = () => {
             {/* <p>B.H.M.S</p> */}
           </div>
           <div className="team-col">
-            <img src="images/machine6.jpeg" alt="" />
+            <img src="images/machine12.jpeg" alt="" />
             {/*   <h6>Modular OT</h6> */}
 
             {/* <p>B.H.M.S</p> */}
@@ -219,7 +219,7 @@ const Home = () => {
             <i class="fa-solid fa-face-smile"></i>
             <h4>Shalu kushwaha</h4>
             <p>
-              Doctor is highly experienced. Shri Nath Ji Dental Clinic is
+              Doctor is highly experienced. Shree Nath Ji Dental Clinic is
               profession and I am very happy with his treatment🙂.
             </p>
           </div>
@@ -227,7 +227,7 @@ const Home = () => {
             <i class="fa-solid fa-face-smile"></i>
             <h4>Amit Tahilani</h4>
             <p>
-              Best Orthodontics , Thank u so much Shri Nath Ji Dental Clinic for the best treatment.
+              Best Orthodontics , Thank u so much Shree Nath Ji Dental Clinic for the best treatment.
             </p>
           </div>
           <div className="benefit-col">
@@ -243,7 +243,7 @@ const Home = () => {
             <h4>Rajesh Jain</h4>
             <p>
               Wonderful office, patient oriented, caring treatment, no matter
-              your age. Shri Nath Ji Dental Clinic is resourceful.
+              your age. Shree Nath Ji Dental Clinic is resourceful.
             </p>
           </div>
         </div>

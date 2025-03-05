@@ -8,7 +8,7 @@ const Aboutus = () => {
 
   useEffect(() => {
     getdata();
-  },[]);
+  }, []);
 
   const getdata = async () => {
     try {
@@ -31,7 +31,7 @@ const Aboutus = () => {
       </div>
 
       <div className="welcome">
-        <h3>About Shri Nath Ji Dental Clinic </h3>
+        <h3>About Shree Nath Ji Dental Clinic </h3>
         <div className="wel-row">
           <div className="wel-col ">
             <img
