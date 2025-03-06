@@ -82,44 +82,76 @@ const Home = () => {
               <img src="./img/h3.png" alt="" />
             </div> */}
             <div>
-              <h3>Root Canal Treatment</h3>
+              <h3>FPD (fixed teeth placement)</h3>
               <p>
-                Root canal treatment is a treatment sequence for the infected pulp of a tooth that is intended to result in the elimination of infection and the protection of the decontaminated tooth from future microbial invasion.
+                Fixed Teeth Placement (FPD)  is a dental restoration technique used to replace missing teeth. This method involves attaching artificial teeth to adjacent natural teeth or dental implants to create a permanent solution.
               </p>
             </div>
           </div>
           <div className="spec-col">
             <div>
-              <h3>Fixed Partial Dentures</h3>
+              <h3>Complete Denture               </h3>
               <p>
-                The fixed partial denture (FPD) (Fixed teeth)
-                It is a dental restoration used to replace missing teeth and that is permanently attached to adjacent teeth or dental implants. It is like a ‘bridge’ fixed on the ‘stages.’ Here, the adjacent teeth or dental implants, called abutments, act as the stages to support the FPD bridge.              </p>
+                A Complete Denture is a removable dental prosthesis used to replace all the natural teeth in a patient's upper or lower arch. It is commonly recommended for individuals who have lost all their teeth due to decay, disease, or injury.
+              </p>
             </div>
           </div>
         </div>
         <br />
-        {/* <div className="spec-row">
+        <div className="spec-row">
           <div className="spec-col">
             <div>
-              <h3>Glue with BCL </h3>
+              <h3>Extraction (Removal of tooth without pain) </h3>
               <p>
-                Cyanoacrylate Tissue Adhesive (TA) with Bandage Contact Lens
-                (BCL) has become a cornerstone in treating severe corneal
-                thinning and perforations ≤2.5 mm in size.
+                Extraction is the process of removing a tooth from its socket in the jawbone. It is typically performed when a tooth is severely damaged due to decay, infection, or trauma, or when it causes crowding or other dental issues. Modern dental techniques ensure that extractions are carried out without pain or discomfort.
               </p>
             </div>
           </div>
           <div className="spec-col">
             <div>
-              <h3>Sutureless</h3>
+              <h3>Root canal treatment </h3>
               <p>
-                The sutureless technique did not reduce the rate of restenosis,
-                progression of the disease to previously uninvolved pulmonary
-                veins, or mortality rate.
+                Root canal treatment (RCT) is a dental procedure designed to save a damaged or infected tooth by removing the infected pulp (the soft tissue inside the tooth) and sealing it to prevent further damage. This procedure allows patients to keep their natural tooth, avoiding extraction.
               </p>
             </div>
           </div>
-        </div> */}
+        </div>
+        <div className="spec-row">
+          <div className="spec-col">
+            <div>
+              <h3>Oral ulcer treatment</h3>
+              <p>
+                Oral ulcers, also known as canker sores, are painful lesions that can appear inside the mouth, on the gums, tongue, or inner cheeks. These ulcers can be caused by factors such as stress, trauma, infections, certain foods, or underlying medical conditions. Treating oral ulcers helps reduce pain, promote healing, and prevent recurrence.
+              </p>
+            </div>
+          </div>
+          <div className="spec-col">
+            <div>
+              <h3>RVG (Digital X-ray) </h3>
+              <p>
+                RVG (Radiovisiography), also known as Digital X-ray, is an advanced imaging technology used in dental treatment to capture clear, detailed images of teeth, bones, and surrounding structures. Unlike traditional X-rays, which use film to capture images, RVG employs a digital sensor that instantly transmits the image to a computer screen.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="spec-row">
+          <div className="spec-col">
+            <div>
+              <h3>Bleaching (teeth whitening) </h3>
+              <p>
+                Teeth bleaching or whitening is a popular cosmetic dental procedure aimed at improving the color and appearance of discolored or stained teeth. It is often performed to restore a bright, natural smile by lightening the enamel, removing stains, and reducing yellowing caused by various factors such as aging, smoking, or consumption of staining foods and beverages.
+              </p>
+            </div>
+          </div>
+          <div className="spec-col">
+            <div>
+              <h3>Restoration ( dental filling)</h3>
+              <p>
+                Dental restoration, commonly known as a dental filling, is a procedure used to repair teeth damaged by decay, cracks, or wear. The treatment involves removing the decayed portion of the tooth and filling the space with a material to restore its function, shape, and appearance.
+              </p>
+            </div>
+          </div>
+        </div>
         <div className="gallery-col2">
           <img src="images/description.jpeg" alt="" />
         </div>
