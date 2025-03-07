@@ -153,7 +153,7 @@ const Home = () => {
           </div>
         </div>
         <div className="gallery-col2">
-          <img src="images/description.jpeg" alt="" />
+          { /*  <img src="images/description.jpeg" alt="" /> */}
         </div>
         <div className="extra">
           <h3> Benefits of teeth cleaning - </h3>
@@ -178,32 +178,32 @@ const Home = () => {
         </h1>
         <div className="team-row">
           <div className="team-col">
-            <img src="images/machine1.jpeg" alt="" />
-            {/*  <h6>Slit Lamp With Applanation Tonometer </h6> */}
+            <img src="images/afterbefore1.jpeg" alt="" />
+            <h6>Teeth cleaning </h6>
 
             {/* <p>(B.H.M.S, M.D)</p> */}
           </div>
           <div className="team-col">
-            <img src="images/machine11.jpeg" alt="" />
-            {/*     <h6> Fully Computerised Glass Prescription</h6> */}
+            <img src="images/afterbefore2.jpeg" alt="" />
+            <h6>  Teeth polishing </h6>
 
             {/* <p>B.H.M.S</p> */}
           </div>
           <div className="team-col">
-            <img src="images/machine8.jpeg" alt="" />
-            {/*    <h6>Labomed (USA) Operating Microscope</h6> */}
+            <img src="images/afterbefore3.jpeg" alt="" />
+            <h6>FPD (fixed teeth placement) </h6>
 
             {/* <p>B.H.M.S</p> */}
           </div>
           <div className="team-col">
-            <img src="images/machine7.jpeg" alt="" />
-            {/*   <h6>Modular OT</h6> */}
+            <img src="images/afterbefore4.jpeg" alt="" />
+            <h6>Orthodontic treatment </h6>
 
             {/* <p>B.H.M.S</p> */}
           </div>
           <div className="team-col">
-            <img src="images/machine12.jpeg" alt="" />
-            {/*   <h6>Modular OT</h6> */}
+            <img src="images/description.jpeg" alt="" />
+            <h6>Root canal treatment</h6>
 
             {/* <p>B.H.M.S</p> */}
           </div>
