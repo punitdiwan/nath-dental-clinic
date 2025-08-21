@@ -10,7 +10,7 @@ const AfterBefore = () => {
     };
 
     // Replace API_ENDPOINT with the actual API endpoint
-    const API_ENDPOINT = `${process.env.REACT_APP_CMS_URL1}after_before?fields=*.*.*`;
+    const API_ENDPOINT = `${process.env.REACT_APP_BASE_URL}/${process.env.REACT_APP_SCHOOL}/items/after_before?fields=*.*.*`;
     const { data, error } = useSWR(API_ENDPOINT, fetcher);
     
     

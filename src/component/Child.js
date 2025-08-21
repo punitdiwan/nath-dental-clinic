@@ -10,7 +10,7 @@ const Child = () => {
   const getdata = async () => {
     try {
       const res = await fetch(
-        `${process.env.REACT_APP_CMS_URL}retina_checkup?fields=*.*`
+        `${process.env.REACT_APP_BASE_URL}/${process.env.REACT_APP_SCHOOL}/items/retina_checkup?fields=*.*`
       );
       const data = await res.json();
       setTreatment(data.data[0]);

@@ -25,7 +25,7 @@ const Contact = () => {
     const isValid = formValidation();
     if (isValid) {
       fetch(
-        `${process.env.REACT_APP_CMS_URL1}contact_form?fields=*.*.*`,
+        `${process.env.REACT_APP_BASE_URL}/${process.env.REACT_APP_SCHOOL}/items/contact_form?fields=*.*.*`,
         {
           method: "POST",
           body: JSON.stringify({ full_name: name, email, mobile, subject , message }),

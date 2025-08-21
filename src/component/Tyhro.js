@@ -10,7 +10,7 @@ const Tyhro = () => {
     const getdata = async () => {
       try {
         const res = await fetch(
-          `${process.env.REACT_APP_CMS_URL}cornea_and_dry_eye?fields=*.*`
+          `${process.env.REACT_APP_BASE_URL}/${process.env.REACT_APP_SCHOOL}/items/cornea_and_dry_eye?fields=*.*`
         );
         const data = await res.json();
         setTreatment(data.data[0]);

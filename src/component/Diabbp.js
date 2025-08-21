@@ -10,7 +10,7 @@ const Diabbp = () => {
     const getdata = async () => {
       try {
         const res = await fetch(
-          `${process.env.REACT_APP_CMS_URL}headache_and_migrane?fields=*.*`
+          `${process.env.REACT_APP_BASE_URL}/${process.env.REACT_APP_SCHOOL}/items/headache_and_migrane?fields=*.*`
         );
         const data = await res.json();
         setTreatment(data.data[0]);

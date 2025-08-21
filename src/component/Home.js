@@ -12,7 +12,7 @@ const Home = () => {
   const getdata = async () => {
     try {
       const res = await fetch(
-        `${process.env.REACT_APP_CMS_URL1}about?fields=*.*`
+        `${process.env.REACT_APP_BASE_URL}/${process.env.REACT_APP_SCHOOL}/items/about?fields=*.*`
       );
       const data = await res.json();
       setParagraph(data.data[0]);

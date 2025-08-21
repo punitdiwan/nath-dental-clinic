@@ -10,7 +10,7 @@ const Resip = () => {
   const getdata = async () => {
     try {
       const res = await fetch(
-        `${process.env.REACT_APP_CMS_URL}glaucoma_dianosis?fields=*.*`
+        `${process.env.REACT_APP_BASE_URL}/${process.env.REACT_APP_SCHOOL}/items/glaucoma_dianosis?fields=*.*`
       );
       const data = await res.json();
       setTreatment(data.data[0]);
