@@ -5,14 +5,14 @@ const Aboutus = () => {
 
 
   // console.log(CMS_URL);
-
+ 
   useEffect(() => {
     getdata();
   }, []);
 
   const getdata = async () => {
     try {
-      const res = await fetch(`${process.env.REACT_APP_CMS_URL1}about?fields=*.*`);
+      const res = await fetch(`${process.env.REACT_APP_BASE_URL}/${process.env.REACT_APP_SCHOOL}/items/about?fields=*.*`);
       const data = await res.json();
       setParagraph(data.data[0]);
       console.log(data.data[0]);
@@ -68,13 +68,13 @@ const Aboutus = () => {
         </h1>
         <div className="c-row">
           <div className="c-col">
-            <img src="./images/1.jpeg" alt="" />
+            <img src="/images/1.jpeg" alt="" />
           </div>
           <div className="c-col">
-            <img src="./images/2.jpeg" alt="" />
+            <img src="/images/2.jpeg" alt="" />
           </div>
           <div className="c-col">
-            <img src="./images/3.jpeg" alt="" />
+            <img src="/images/3.jpeg" alt="" />
           </div>
         </div>
 

@@ -10,7 +10,7 @@ const Heart = () => {
   const getdata = async () => {
     try {
       const res = await fetch(
-        `${process.env.REACT_APP_CMS_URL}eye_glass_prescription?fields=*.*`
+        `${process.env.REACT_APP_BASE_URL}/${process.env.REACT_APP_SCHOOL}/items/eye_glass_prescription?fields=*.*`
       );
       const data = await res.json();
       setTreatment(data.data[0]);

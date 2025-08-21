@@ -7,7 +7,7 @@ const BannerSection = () => {
   const slideIntervalDuration = 4000; // 4 seconds for automatic slide change
   useEffect(() => {
     // Fetch the slides data
-    fetch(`${process.env.REACT_APP_CMS_URL1}slider?fields=*.*.*`)
+    fetch(`${process.env.REACT_APP_BASE_URL}/${process.env.REACT_APP_SCHOOL}/items/slider?fields=*.*.*`)
       .then(response => response.json())
       .then(data => { 
         // Assuming the slides array is in the data property
