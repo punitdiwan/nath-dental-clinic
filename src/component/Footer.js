@@ -184,7 +184,7 @@ const Footer = ({data}) => {
       <div className="policy" id="footer-policy">
         <div className="policy-row">
           <div className="policy-col">
-            <p>Copyright ©  Shree Nath Ji Dental Clinic</p>
+            <p>Copyright ©  {data?.data ? data?.data[0]?.clinic_name: "Shree Nath Ji Dental Clinic"}</p>
           </div>
           <div className="policy-col">
             <p>

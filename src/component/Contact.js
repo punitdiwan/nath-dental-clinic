@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaFacebook } from "react-icons/fa";
 import { BsGoogle } from "react-icons/bs";
 
-const Contact = () => {
+const Contact = ({data}) => {
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -108,7 +108,7 @@ const Contact = () => {
     <>
       <div className="dr-header">
         <div className="header-contant">
-          <h1> Contact Us</h1>
+          <h1>Contact Us</h1>
           <p>Doctor {" > "} Contact Us </p>
         </div>
       </div>
@@ -121,11 +121,10 @@ const Contact = () => {
               <i class="fa-solid fa-location-dot"></i>
               <div className="contact-cont">
                 <h5>Location</h5>
-                <p>
-                  # Shreenathji Dental Clinic 
-                  <br />
-                  Shreenathji Dental Clinic near district hospital above sehore chemist ganga ashram sehore
-                </p>
+                <p style={{textTransform:"capitalize"}}>
+                    {data?.data ? data?.data[0]?.clinic_name : "Shree Nath Ji Dental Clinic"}
+                    <br />{data?.data ? data?.data[0]?.address : "# Shreenathji Dental Clinic near district hospital above Sehore chemist ganga ashram sehore"}
+                  </p>
                 <iframe
                   title="maplink"
                   src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3667.229797478625!2d77.08004007531906!3d23.19829457905103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDExJzUzLjkiTiA3N8KwMDQnNTcuNCJF!5e0!3m2!1sen!2sin!4v1740487555775!5m2!1sen!2sin"
@@ -143,7 +142,7 @@ const Contact = () => {
               <div>
                 <h5>Call Us</h5>
                 <p>
-                  <a href="tel: 9755558867 ">9755558867</a> 
+                  <a href="tel: 9755558867 ">{data?.data ? data?.data[0]?.contact_number:"+91-9755558867"}</a> 
                 </p>
               </div>
             </div>
@@ -153,7 +152,7 @@ const Contact = () => {
                 <h5>Email</h5>
                 <p>
                   <a href="mailto: nitesh_gaur99@yahoo.com">
-                  nitesh_gaur99@yahoo.com
+                  {data?.data ? data?.data[0]?.email:"nitesh_gaur99@yahoo.com"}
                   </a>{" "}
                 </p>
               </div>

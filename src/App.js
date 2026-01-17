@@ -45,7 +45,7 @@ function App() {
     <Route path='/gallery' element={<Gallery/>}/>
     <Route path='/After-before' element={<AfterBefore/>} />
     <Route path='/NewsPhotos' element={<NewsPhotos />} />
-    <Route path='/contactus' element={<Contact/>}/>
+    <Route path='/contactus' element={<Contact data={data}/>}/>
     <Route path='/diabetes' element={<Diabbp/>}/>
     <Route path='/heart' element={<Heart/>}/>
     <Route path='/children' element={<Child/>}/>
