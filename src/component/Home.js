@@ -8,7 +8,7 @@ const Home = () => {
   useEffect(() => {
     getdata();
   }, []);
-  console.log(process.env.REACT_APP_CMS_URL)
+  // console.log(process.env.REACT_APP_CMS_URL)
   const getdata = async () => {
     try {
       const res = await fetch(
@@ -16,7 +16,7 @@ const Home = () => {
       );
       const data = await res.json();
       setParagraph(data.data[0]);
-      console.log(data.data[0]);
+      // console.log(data.data[0]);
     } catch (error) {
       console.log(error);
     }
