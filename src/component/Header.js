@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Header = ({data}) => {
   const [show, setShow] = useState(false);
   // const [down, setDown] = useState(false);
 
@@ -13,26 +13,26 @@ const Header = () => {
       <div className="topnav">
         <div className="topnav-row">
           <div className="topnav-col">
-            <p>
+            <p style={{textTransform:"uppercase"}}>
               Clinic Timing{" "}
               <i
                 style={{ color: "#ffff" }}
                 class="fas fa-long-arrow-alt-right globalcolor"
               ></i>{" "}
-              11:00AM - 7:00PM &nbsp;
+              {data?.data ? data?.data[0]?.clinic_time:"11:00AM - 7:00PM"}
             </p>
           </div>
           <div className="topnav-col topnav-col-1">
             <div className="topnav-contact">
               <i class="fa-solid fa-envelope"></i>
               <a href="mailto: nitesh_gaur99@yahoo.com">
-                <span> nitesh_gaur99@yahoo.com</span>
+                <span> {data?.data ? data?.data[0]?.email:"nitesh_gaur99@yahoo.com"}</span>
               </a>
             </div>
             <div className="topnav-contact">
               <i class="fa-solid fa-phone-volume"></i>
               <a href="tel:9755558867">
-                <span>+91  9755558867</span>
+                <span>{data?.data ? data?.data[0]?.contact_number :"+91-9755558867"}</span>
               </a>
             </div>
             {/* <div className="topnav-contact">

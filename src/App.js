@@ -20,19 +20,32 @@ import Neurometa from './component/Neurometa';
 import Behaviour from './component/Behaviour';
 import AfterBefore from './component/Afterbefore';
 import NewsPhotos from './component/NewsPhotos';
+import useSWR from "swr";
+import axios from 'axios';
 
 function App() {
+
+     const fetcher = async (url) => {
+    const response = await axios.get(url);
+    return response.data;
+  };
+
+  const API_ENDPOINT = `${process.env.REACT_APP_BASE_URL}/${process.env.REACT_APP_SCHOOL}/items/config?*.*.*`;
+
+  const { data, error } = useSWR(API_ENDPOINT, fetcher);
+
+  console.log(error)
   return (
     <div className="App">  
     <BrowserRouter>
-    <Header/>
+    <Header data={data}/>
     <Routes>
     <Route path='/' element={<Home/>}/>
     <Route path='/aboutus' element={<Aboutus/>} />
     <Route path='/gallery' element={<Gallery/>}/>
     <Route path='/After-before' element={<AfterBefore/>} />
     <Route path='/NewsPhotos' element={<NewsPhotos />} />
-    <Route path='/contactus' element={<Contact/>}/>
+    <Route path='/contactus' element={<Contact data={data}/>}/>
     <Route path='/diabetes' element={<Diabbp/>}/>
     <Route path='/heart' element={<Heart/>}/>
     <Route path='/children' element={<Child/>}/>
@@ -49,7 +62,7 @@ function App() {
 
 
     </Routes>
-    <Footer/>
+    <Footer data={data}/>
     </BrowserRouter>
     </div>
   );

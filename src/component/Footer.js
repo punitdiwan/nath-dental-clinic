@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 
-const Footer = () => {
+const Footer = ({data}) => {
   const scriptLoaded = useRef(false);
 
   useEffect(() => {
@@ -27,16 +27,14 @@ const Footer = () => {
           <div className="footer-left-upper">
             <div className="footer-left">
               <div className="footer-col footer-col-1">
-                <h3>Shree Nath Ji Dental Clinic</h3>
-                <p>
-                  Shree Nath Ji Dental Clinic. His
-                  clinic is one of the best setup in Mandla city and equipped
-                  with latest machines.
+                <h3 style={{textTransform:"capitalize"}}>{data?.data ? data?.data[0]?.clinic_name: "Shree Nath Ji Dental Clinic"}</h3>
+                <p style={{textTransform:"capitalize"}}>
+                  {data?.data ? data?.data[0]?.clinic_description : "Shree Nath Ji Dental Clinic. His clinic is one of the best setup in Mandla city and equipped                  with latest machines."}
                 </p>
                 <div className="contact-detail">
                   <p>
                     Contact Number :{" "}
-                    <a href="tel:  9755558867">+91 9755558867 </a>
+                    <a href="tel:  9755558867">{data?.data ? data?.data[0]?.contact_number:"+91-9755558867 "}</a>
                   </p>
                   <p>
                     {/* Contact Number : <a href="tel:  8770195044">+91 8770195044</a> */}
@@ -45,7 +43,7 @@ const Footer = () => {
                     Email :{" "}
                     <a href="mailto: nitesh_gaur99@yahoo.com">
                       {" "}
-                      nitesh_gaur99@yahoo.com
+                      {data?.data ? data?.data[0]?.email:"nitesh_gaur99@yahoo.com"}
                     </a>
                   </p>
                 </div>
@@ -53,12 +51,12 @@ const Footer = () => {
               <div className="footer-col footer-col-1">
                 <h3>ADDRESS</h3>
                 <div className="clinic-time">
-                  <p>
-                    Shree Nath Ji Dental Clinic
-                    <br /># Shreenathji Dental Clinic near district hospital above Sehore chemist ganga ashram sehore
+                  <p style={{textTransform:"capitalize"}}>
+                    {data?.data ? data?.data[0]?.clinic_name : "Shree Nath Ji Dental Clinic"}
+                    <br />{data?.data ? data?.data[0]?.address : "# Shreenathji Dental Clinic near district hospital above Sehore chemist ganga ashram sehore"}
                   </p>
                   <p>
-                    <span style={{ color: "#ffff" }}>Clinic Time:</span> 11:00am - 7:00pm
+                    <span style={{ color: "#ffff", textTransform: "uppercase"}}>Clinic Time:</span> {data?.data ? data?.data[0]?.clinic_time:"11:00AM - 7:00PM"}
                   </p>
                   <p>
                     {/* <span style={{ color: "#ffff" }}>Friday:</span> Closed */}
@@ -186,7 +184,7 @@ const Footer = () => {
       <div className="policy" id="footer-policy">
         <div className="policy-row">
           <div className="policy-col">
-            <p>Copyright ©  Shree Nath Ji Dental Clinic</p>
+            <p>Copyright ©  {data?.data ? data?.data[0]?.clinic_name: "Shree Nath Ji Dental Clinic"}</p>
           </div>
           <div className="policy-col">
             <p>
