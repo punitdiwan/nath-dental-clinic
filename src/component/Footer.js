@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 
-const Footer = ({data}) => {
+const Footer = ({ data }) => {
   const scriptLoaded = useRef(false);
 
   useEffect(() => {
@@ -27,14 +27,14 @@ const Footer = ({data}) => {
           <div className="footer-left-upper">
             <div className="footer-left">
               <div className="footer-col footer-col-1">
-                <h3 style={{textTransform:"capitalize"}}>{data?.data ? data?.data[0]?.clinic_name: "Shree Nath Ji Dental Clinic"}</h3>
-                <p style={{textTransform:"capitalize"}}>
+                <h3 style={{ textTransform: "capitalize" }}>{data?.data ? data?.data[0]?.clinic_name : "Shree Nath Ji Dental Clinic"}</h3>
+                <p style={{ textTransform: "capitalize" }}>
                   {data?.data ? data?.data[0]?.clinic_description : "Shree Nath Ji Dental Clinic. His clinic is one of the best setup in Mandla city and equipped                  with latest machines."}
                 </p>
                 <div className="contact-detail">
                   <p>
                     Contact Number :{" "}
-                    <a href="tel:  9755558867">{data?.data ? data?.data[0]?.contact_number:"+91-9755558867 "}</a>
+                    <a href="tel:  9755558867">{data?.data ? data?.data[0]?.contact_number : "+91-9755558867 "}</a>
                   </p>
                   <p>
                     {/* Contact Number : <a href="tel:  8770195044">+91 8770195044</a> */}
@@ -43,7 +43,7 @@ const Footer = ({data}) => {
                     Email :{" "}
                     <a href="mailto: nitesh_gaur99@yahoo.com">
                       {" "}
-                      {data?.data ? data?.data[0]?.email:"nitesh_gaur99@yahoo.com"}
+                      {data?.data ? data?.data[0]?.email : "nitesh_gaur99@yahoo.com"}
                     </a>
                   </p>
                 </div>
@@ -51,12 +51,12 @@ const Footer = ({data}) => {
               <div className="footer-col footer-col-1">
                 <h3>ADDRESS</h3>
                 <div className="clinic-time">
-                  <p style={{textTransform:"capitalize"}}>
+                  <p style={{ textTransform: "capitalize" }}>
                     {data?.data ? data?.data[0]?.clinic_name : "Shree Nath Ji Dental Clinic"}
                     <br />{data?.data ? data?.data[0]?.address : "# Shreenathji Dental Clinic near district hospital above Sehore chemist ganga ashram sehore"}
                   </p>
                   <p>
-                    <span style={{ color: "#ffff", textTransform: "uppercase"}}>Clinic Time:</span> {data?.data ? data?.data[0]?.clinic_time:"11:00AM - 7:00PM"}
+                    <span style={{ color: "#ffff", textTransform: "uppercase" }}>Clinic Time:</span> {data?.data ? data?.data[0]?.clinic_time : "11:00AM - 7:00PM"}
                   </p>
                   <p>
                     {/* <span style={{ color: "#ffff" }}>Friday:</span> Closed */}
@@ -169,14 +169,14 @@ const Footer = ({data}) => {
           <div className="footer-col" id="footermap">
             <h3>LOCATION MAP</h3>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3667.229797478625!2d77.08004007531906!3d23.19829457905103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDExJzUzLjkiTiA3N8KwMDQnNTcuNCJF!5e0!3m2!1sen!2sin!4v1740487555775!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3485.777295839748!2d77.07991957531907!3d23.198333979050936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDExJzU0LjAiTiA3N8KwMDQnNTcuMCJF!5e1!3m2!1sen!2sin!4v1768994112815!5m2!1sen!2sin"
               width="400"
               height="300"
-              allowFullScreen=""
               loading="lazy"
+              allowFullScreen
               referrerPolicy="no-referrer-when-downgrade"
-              title="mapurl"
-            ></iframe>
+              title="clinic-location-map"
+            />
           </div>
         </div>
       </div>
@@ -184,7 +184,7 @@ const Footer = ({data}) => {
       <div className="policy" id="footer-policy">
         <div className="policy-row">
           <div className="policy-col">
-            <p>Copyright ©  {data?.data ? data?.data[0]?.clinic_name: "Shree Nath Ji Dental Clinic"}</p>
+            <p>Copyright ©  {data?.data ? data?.data[0]?.clinic_name : "Shree Nath Ji Dental Clinic"}</p>
           </div>
           <div className="policy-col">
             <p>
