@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { FaFacebook } from "react-icons/fa";
 import { BsGoogle } from "react-icons/bs";
 
-const Contact = ({data}) => {
+const Contact = ({ data }) => {
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -28,7 +28,7 @@ const Contact = ({data}) => {
         `${process.env.REACT_APP_BASE_URL}/${process.env.REACT_APP_SCHOOL}/items/contact_form?fields=*.*.*`,
         {
           method: "POST",
-          body: JSON.stringify({ full_name: name, email, mobile, subject , message }),
+          body: JSON.stringify({ full_name: name, email, mobile, subject, message }),
           headers: { "Content-type": "application/json; charset=UTF-8" },
         }
       )
@@ -88,7 +88,7 @@ const Contact = ({data}) => {
     if (subject === "") {
       subjectErr.firstNameEmpty = "write subject";
       isValid = false;
-    } 
+    }
     if (message === "") {
       messageErr.messageEmpty = "Message is required";
       isValid = false;
@@ -121,20 +121,20 @@ const Contact = ({data}) => {
               <i class="fa-solid fa-location-dot"></i>
               <div className="contact-cont">
                 <h5>Location</h5>
-                <p style={{textTransform:"capitalize"}}>
-                    {data?.data ? data?.data[0]?.clinic_name : "Shree Nath Ji Dental Clinic"}
-                    <br />{data?.data ? data?.data[0]?.address : "# Shreenathji Dental Clinic near district hospital above Sehore chemist ganga ashram sehore"}
-                  </p>
+                <p style={{ textTransform: "capitalize" }}>
+                  {data?.data ? data?.data[0]?.clinic_name : "Shree Nath Ji Dental Clinic"}
+                  <br />{data?.data ? data?.data[0]?.address : "# Shreenathji Dental Clinic near district hospital above Sehore chemist ganga ashram sehore"}
+                </p>
                 <iframe
                   title="maplink"
-                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3667.229797478625!2d77.08004007531906!3d23.19829457905103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDExJzUzLjkiTiA3N8KwMDQnNTcuNCJF!5e0!3m2!1sen!2sin!4v1740487555775!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3485.777295839748!2d77.07991957531907!3d23.198333979050936!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDExJzU0LjAiTiA3N8KwMDQnNTcuMCJF!5e1!3m2!1sen!2sin!4v1768994112815!5m2!1sen!2sin"
                   width="100%"
-                  height="auto"
-                  style={{ border: "0" }}
-                  allowFullScreen=""
+                  height="250"
+                  style={{ border: 0 }}
                   loading="lazy"
+                  allowFullScreen
                   referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
+                />
               </div>
             </div>
             <div className="contact-col-l con-bor">
@@ -142,7 +142,7 @@ const Contact = ({data}) => {
               <div>
                 <h5>Call Us</h5>
                 <p>
-                  <a href="tel: 9755558867 ">{data?.data ? data?.data[0]?.contact_number:"+91-9755558867"}</a> 
+                  <a href="tel: 9755558867 ">{data?.data ? data?.data[0]?.contact_number : "+91-9755558867"}</a>
                 </p>
               </div>
             </div>
@@ -152,7 +152,7 @@ const Contact = ({data}) => {
                 <h5>Email</h5>
                 <p>
                   <a href="mailto: nitesh_gaur99@yahoo.com">
-                  {data?.data ? data?.data[0]?.email:"nitesh_gaur99@yahoo.com"}
+                    {data?.data ? data?.data[0]?.email : "nitesh_gaur99@yahoo.com"}
                   </a>{" "}
                 </p>
               </div>
@@ -198,9 +198,9 @@ const Contact = ({data}) => {
           <div className="contact-col contact-col-r">
             <h1>Enquiry Now.</h1>
 
-            <form 
+            <form
               onSubmit={submit}
-            action="#" method="POST">
+              action="#" method="POST">
               <div class="row">
                 <div class="col">
                   <input
@@ -212,7 +212,7 @@ const Contact = ({data}) => {
                     placeholder="Your Name*"
                     aria-label="Your Name"
                     autoComplete="off"
-                    // required
+                  // required
                   />
                   {Object.keys(nameErr).map((key) => {
                     return (
@@ -232,14 +232,14 @@ const Contact = ({data}) => {
                   <input
                     type="number"
                     name="mobile"
-               
+
                     value={mobile}
                     onChange={(e) => setMobile(e.target.value)}
                     class="form-control"
                     placeholder="Your Phone"
                     aria-label="Your Phone"
                     autoComplete="off"
-                    // required
+                  // required
                   />
                   {Object.keys(mobileErr).map((key) => {
                     return (
@@ -267,7 +267,7 @@ const Contact = ({data}) => {
                     placeholder="Your Email*"
                     aria-label="Your Email"
                     autoComplete="off"
-                    // required
+                  // required
                   />
                   {Object.keys(emailErr).map((key) => {
                     return (
@@ -293,9 +293,9 @@ const Contact = ({data}) => {
                     placeholder="Subject"
                     aria-label="Subject"
                     autoComplete="off"
-                    // required
+                  // required
                   />
-                     {Object.keys(subjectErr).map((key) => {
+                  {Object.keys(subjectErr).map((key) => {
                     return (
                       <div
                         style={{
